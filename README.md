@@ -87,12 +87,12 @@ mysql-connector-java - MySQL driver for Java.
 *spring-security-jwt - For JWT-based authentication.*
 
 ### Logging:
-**spring-boot-starter-logging - Default logging.**
-**logback or log4j - Advanced logging (optional).**
+*spring-boot-starter-logging - Default logging.*
+*logback or log4j - Advanced logging (optional).*
 
 ### Testing Dependencies:
-**spring-boot-starter-test - For unit and integration testing.**
-**mockito - For mocking in tests.**
+*spring-boot-starter-test - For unit and integration testing.*
+*mockito - For mocking in tests.*
 
 ## Team Members:
 - **PATHIRANA V.P.E.P.V.** (IT21175084)
