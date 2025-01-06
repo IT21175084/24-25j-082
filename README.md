@@ -49,7 +49,7 @@ prettier - For code formatting.
 webpack - Module bundler (if not using create-react-app).
 
 ### Optional Dependencies:
-formik or react-hook-form - For form handling.
+formik or react-hook-form - For form handling./n
 moment or dayjs - For date handling.
 
 ### Backend (Python Flask):
