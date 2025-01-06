@@ -31,16 +31,68 @@ four core components: MCQ practice, video tutorials, mock interviews, and career
 ![System Overview](https://github.com/IT21175084/24-25j-082)
 
 ## Dependencies
+### Frontend (React.js):
+react - Core React library.
+react-dom - Provides DOM-specific methods for React.
+react-router-dom - For routing and navigation.
+redux - State management.
+react-redux - React bindings for Redux.
+axios - For making HTTP requests.
 
-### Backend:
-java 21
+### Styling & UI Dependencies:
+styled-components or sass - For styling.
+material-ui/core or ant-design or bootstrap - For UI components.
+
+### Development Dependencies:
+eslint - For linting.
+prettier - For code formatting.
+webpack - Module bundler (if not using create-react-app).
+
+### Optional Dependencies:
+formik or react-hook-form - For form handling.
+moment or dayjs - For date handling.
+
+### Backend (Python Flask):
 python 3.12
+Flask - Core Flask framework.
+Flask-CORS - For Cross-Origin Resource Sharing.
+Flask-SQLAlchemy - ORM for interacting with the database.
+Flask-Migrate - For database migrations.
+Flask-RESTful - For building REST APIs.
 
+### Utilities:
+requests - For making HTTP requests from the server.
+python-dotenv - For managing environment variables.
+bcrypt or Flask-Bcrypt - For password hashing.
+JWT or Flask-JWT-Extended - For JSON Web Token-based authentication.
 
+### Database Connectivity:
+mysql-connector-python or PyMySQL - For connecting to the MySQL database.
 
-### Frontend:
-node.js
+### Testing Dependencies:
+pytest - Testing framework.
+pytest-flask - Flask integration for Pytest.
 
+### Integration Service (Spring Boot):
+java 21
+spring-boot-starter-web - For building REST APIs.
+spring-boot-starter-data-jpa - For database interaction.
+spring-boot-starter-validation - For input validation.
+
+### Database Connectivity:
+mysql-connector-java - MySQL driver for Java.
+
+### Security:
+spring-boot-starter-security - For securing the application.
+spring-security-jwt - For JWT-based authentication.
+
+### Logging:
+spring-boot-starter-logging - Default logging.
+logback or log4j - Advanced logging (optional).
+
+### Testing Dependencies:
+spring-boot-starter-test - For unit and integration testing.
+mockito - For mocking in tests.
 
 ## Team Members:
 - **PATHIRANA V.P.E.P.V.** (IT21175084)
