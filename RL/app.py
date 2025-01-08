@@ -17,7 +17,14 @@ db = SQLAlchemy(app)
 app_context = app.app_context()
 app_context.push()
 
-
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    role = db.Column(db.String(50), nullable=False)
+    chapter = db.Column(db.String(50), nullable=False)
+    points = db.Column(db.Integer, default=0)
+    current_level = db.Column(db.String(50), default='Beginner')
+    session_id = db.Column(db.String(50), nullable=False)
+    end_status = db.Column(db.Boolean, default=False)
 
 with app.app_context():
     db.create_all()
