@@ -28,8 +28,9 @@ four core components: MCQ practice, video tutorials, mock interviews, and career
 **Advanced Level**
 
 ## System Overview
-![System Overview](https://github.com/IT21175084/24-25j-082)
 
+![System Overview](https://github.com/IT21175084/24-25j-082)
+![System Overview](./images/system_overview.png)
 ## Dependencies
 
 ### Frontend (React.js):
